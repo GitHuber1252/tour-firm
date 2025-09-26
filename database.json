@@ -1,0 +1,7 @@
+{
+  "users": [
+    {"login": "admin", "password": "admin", "role": "admin"}
+  ],
+  "hotels": [],
+  "rooms": []
+}
