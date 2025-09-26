@@ -15,10 +15,6 @@ def load_data():
 def save_data(data):
     with open(DB_FILE, 'w') as f:
         json.dump(data, f, indent=4)
-root = tk.Tk()
-root.title("TourFirm Login")
-root.geometry("1000x800")
-
 
 def register_window(root):
     win = tk.Toplevel(root)
