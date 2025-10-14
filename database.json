@@ -1,0 +1,58 @@
+{
+    "hotels": [
+        {
+            "id": "1",
+            "name": "hotel1",
+            "rooms": [
+                "11",
+                {
+                    "room_id": "11",
+                    "status": "available",
+                    "booked_by": null
+                },
+                {
+                    "room_id": "12",
+                    "status": "available",
+                    "booked_by": null
+                }
+            ]
+        }
+    ],
+    "clients": [],
+    "rooms": [
+        {
+            "hotel": "hotel1",
+            "hotel_id": "1",
+            "room_id": "11",
+            "status": "available",
+            "booked_by": null
+        },
+        {
+            "hotel": "hotel1",
+            "hotel_id": "1",
+            "room_id": "12",
+            "status": "available",
+            "booked_by": null
+        }
+    ],
+    "bookings": [],
+    "users": [
+        {
+            "login": "admin",
+            "password": "admin",
+            "role": "admin"
+        },
+        {
+            "login": "hotel1",
+            "password": "1",
+            "role": "hotel",
+            "hotel_id": "1",
+            "hotel_name": "hotel1"
+        },
+        {
+            "login": "user1",
+            "password": "1",
+            "role": "client"
+        }
+    ]
+}
