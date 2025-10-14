@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "hotels": [
         {
             "id": "1",
@@ -56,3 +57,11 @@
         }
     ]
 }
+=======
+  "users": [
+    {"login": "admin", "password": "admin", "role": "admin"}
+  ],
+  "hotels": [],
+  "rooms": []
+}
+>>>>>>> 0ed7fddc3f232383a9902c3e0d0f2f393c8b9de6
