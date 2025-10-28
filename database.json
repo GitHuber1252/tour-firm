@@ -1,67 +1,49 @@
 {
-<<<<<<< HEAD
-    "hotels": [
-        {
-            "id": "1",
-            "name": "hotel1",
-            "rooms": [
-                "11",
-                {
-                    "room_id": "11",
-                    "status": "available",
-                    "booked_by": null
-                },
-                {
-                    "room_id": "12",
-                    "status": "available",
-                    "booked_by": null
-                }
-            ]
-        }
-    ],
-    "clients": [],
-    "rooms": [
-        {
-            "hotel": "hotel1",
-            "hotel_id": "1",
-            "room_id": "11",
-            "status": "available",
-            "booked_by": null
-        },
-        {
-            "hotel": "hotel1",
-            "hotel_id": "1",
-            "room_id": "12",
-            "status": "available",
-            "booked_by": null
-        }
-    ],
-    "bookings": [],
-    "users": [
+       "users": [
         {
             "login": "admin",
             "password": "admin",
             "role": "admin"
         },
         {
-            "login": "hotel1",
+            "login": "user",
+            "password": "111",
+            "role": "client"
+        },
+        {
+            "login": "host1",
             "password": "1",
             "role": "hotel",
             "hotel_id": "1",
-            "hotel_name": "hotel1"
+            "hotel_name": "host1"
         },
         {
             "login": "user1",
-            "password": "1",
+            "password": "111",
             "role": "client"
+        }
+    ],
+    "hotels": [
+        {
+            "id": "1",
+            "name": "host1",
+            "rooms": [1]
+        }
+    ],
+    "rooms": [
+        {
+            "hotel": "host1",
+            "hotel_id": "1",
+            "room_id": "001",
+            "status": "available",
+            "booked_by": null
+        },
+        {
+            "hotel": "host1",
+            "hotel_id": "1",
+            "room_id": "002",
+            "status": "available",
+            "booked_by": null
         }
     ]
 }
-=======
-  "users": [
-    {"login": "admin", "password": "admin", "role": "admin"}
-  ],
-  "hotels": [],
-  "rooms": []
-}
->>>>>>> 0ed7fddc3f232383a9902c3e0d0f2f393c8b9de6
