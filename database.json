@@ -1,5 +1,5 @@
 {
-       "users": [
+    "users": [
         {
             "login": "admin",
             "password": "admin",
@@ -11,23 +11,23 @@
             "role": "client"
         },
         {
-            "login": "host1",
-            "password": "1",
-            "role": "hotel",
-            "hotel_id": "1",
-            "hotel_name": "host1"
-        },
-        {
             "login": "user1",
             "password": "111",
             "role": "client"
+        },
+        {
+            "login": "hotel_1",
+            "password": "password123",
+            "role": "hotel",
+            "hotel_id": "1",
+            "hotel_name": "host1"
         }
     ],
     "hotels": [
         {
             "id": "1",
             "name": "host1",
-            "rooms": [1]
+            "rooms": []
         }
     ],
     "rooms": [
@@ -41,7 +41,7 @@
         {
             "hotel": "host1",
             "hotel_id": "1",
-            "room_id": "002",
+            "room_id": "1",
             "status": "available",
             "booked_by": null
         }

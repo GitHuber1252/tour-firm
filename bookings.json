@@ -1,0 +1,38 @@
+{
+    "bookings": [
+        {
+            "booking_id": "1",
+            "hotel_id": "1",
+            "room_id": 1,
+            "user_login": "user1",
+            "check_in": "2025-11-20",
+            "check_out": "2025-12-21",
+            "status": "подтверждена",
+            "created_at": "2025-11-20",
+            "price": 1000,
+            "guests": 1
+        },
+        {
+            "booking_id": "2",
+            "hotel_id": "1",
+            "room_id": 1,
+            "user_login": "user1",
+            "check_in": "2026-11-20",
+            "check_out": "2026-12-21",
+            "status": "отменена",
+            "created_at": "2025-11-20",
+            "price": 1000,
+            "guests": 1
+        }
+    ],
+    "cancel_requests": [
+        {
+            "request_id": "1",
+            "booking_id": 2,
+            "user_login": "user1",
+            "reason": "[p",
+            "status": "одобрено",
+            "created_at": "2025-11-20 22:35:21"
+        }
+    ]
+}
